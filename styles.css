@@ -1,0 +1,61 @@
+body {
+    background-color: #1B2021;
+    color: white;
+    text-align: center;
+    font-family: Raleway;
+}
+
+.container{
+    width: 80%;
+    margin-inline: auto;
+    margin-top: 40px;
+}
+
+#bingo-area {
+    width: 75%;
+    margin-inline: auto;
+    height: 400px;
+    margin-top: 50px;
+}
+
+.bingo-number, .user-board-number {
+    width: 40px;
+    height: 40px;
+    border: 1px solid white;
+    display: inline-block;
+    border-radius: 5px;
+    margin: 5px;
+    text-align: center;
+    line-height: 40px;
+}
+
+.inputs-area {
+    margin-top: 30px;
+}
+button {
+    border: none;
+    background-color: #EA638C;
+    font-family: inherit;
+    padding: 7px;
+    font-weight: bold;
+    border-radius: 4px;
+    margin-top: 10px;
+    color: white;
+}
+
+input {
+    padding: 6px;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+
+#user-boards {
+    width: 75%;
+    margin-inline: auto;
+    margin-bottom: 40px;
+}
+
+
+.user-board-background {
+    background-color: #576CA8;
+}
