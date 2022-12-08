@@ -73,6 +73,7 @@ function bingoGenerator() {
   // Added feature, to clean the bingo area after we add user boards
   let bingoNode = document.getElementById("bingo-area");
   bingoNode.innerText = "";
+  randomNumbersArray = [];
 
   let bingoAreaNode = document.getElementById("bingo-area");
 
